@@ -1,5 +1,5 @@
 # --- DAY 2 --- #
-# "Believe you can and you're halfway there." - Theodore Roosevelt
+# "If you look at what you have in life, you'll always have more. If you look at what you don't have in life, you'll never have enough." - Oprah Winfrey
 
 # Data Path: data/2.py || data/2_exemple.py
 

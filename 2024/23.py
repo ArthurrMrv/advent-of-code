@@ -1,5 +1,5 @@
 # --- DAY 23 --- #
-# "What's money? A man is a success if he gets up in the morning and goes to bed at night and in between does what he wants to do." - Bob Dylan
+# "Winning isn't everything, but wanting to win is." - Vince Lombardi
 
 # Data Path: data/23.py || data/23_exemple.py
 

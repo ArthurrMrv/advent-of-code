@@ -1,5 +1,5 @@
 # --- DAY 17 --- #
-# "Go confidently in the direction of your dreams.  Live the life you have imagined." - Henry David Thoreau
+# "Life shrinks or expands in proportion to one's courage." - Anais Nin
 
 # Data Path: data/17.py || data/17_exemple.py
 

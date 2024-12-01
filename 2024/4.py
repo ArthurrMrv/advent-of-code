@@ -1,5 +1,5 @@
 # --- DAY 4 --- #
-# "If you look at what you have in life, you'll always have more. If you look at what you don't have in life, you'll never have enough." - Oprah Winfrey
+# "In order to succeed, your desire for success should be greater than your fear of failure." - Bill Cosby
 
 # Data Path: data/4.py || data/4_exemple.py
 

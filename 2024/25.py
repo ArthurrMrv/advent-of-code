@@ -1,5 +1,5 @@
 # --- DAY 25 --- #
-# "Winning isn't everything, but wanting to win is." - Vince Lombardi
+# "It's not the years in your life that count. It's the life in your years." - Abraham Lincoln
 
 # Data Path: data/25.py || data/25_exemple.py
 

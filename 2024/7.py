@@ -1,5 +1,5 @@
 # --- DAY 7 --- #
-# "Fall seven times and stand up eight." - Japanese Proverb
+# "You become what you believe." - Oprah Winfrey
 
 # Data Path: data/7.py || data/7_exemple.py
 

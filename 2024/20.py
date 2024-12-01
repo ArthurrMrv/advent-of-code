@@ -1,5 +1,5 @@
 # --- DAY 20 --- #
-# "I didn't fail the test. I just found 100 ways to do it wrong." - Benjamin Franklin
+# "The best revenge is massive success." - Frank Sinatra
 
 # Data Path: data/20.py || data/20_exemple.py
 

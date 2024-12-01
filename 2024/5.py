@@ -1,5 +1,5 @@
 # --- DAY 5 --- #
-# "Definiteness of purpose is the starting point of all achievement." - W. Clement Stone
+# "Fall seven times and stand up eight." - Japanese Proverb
 
 # Data Path: data/5.py || data/5_exemple.py
 

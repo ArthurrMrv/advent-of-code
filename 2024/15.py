@@ -1,5 +1,5 @@
 # --- DAY 15 --- #
-# "If you hear a voice within you say “you cannot paint,” then by all means paint and that voice will be silenced." - Vincent Van Gogh
+# "Go confidently in the direction of your dreams.  Live the life you have imagined." - Henry David Thoreau
 
 # Data Path: data/15.py || data/15_exemple.py
 

@@ -1,5 +1,5 @@
 # --- DAY 21 --- #
-# "Teach thy tongue to say, “I do not know,” and thous shalt progress." - Maimonides
+# "What's money? A man is a success if he gets up in the morning and goes to bed at night and in between does what he wants to do." - Bob Dylan
 
 # Data Path: data/21.py || data/21_exemple.py
 

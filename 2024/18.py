@@ -1,5 +1,5 @@
 # --- DAY 18 --- #
-# "How wonderful it is that nobody need wait a single moment before starting to improve the world." - Anne Frank
+# "I didn't fail the test. I just found 100 ways to do it wrong." - Benjamin Franklin
 
 # Data Path: data/18.py || data/18_exemple.py
 

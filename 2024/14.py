@@ -1,5 +1,5 @@
 # --- DAY 14 --- #
-# "Start where you are. Use what you have.  Do what you can." - Arthur Ashe
+# "If the wind will not serve, take to the oars." - Latin Proverb
 
 # Data Path: data/14.py || data/14_exemple.py
 

@@ -1,5 +1,5 @@
 # --- DAY 9 --- #
-# "You become what you believe." - Oprah Winfrey
+# "I have learned over the years that when one's mind is made up, this diminishes fear." - Rosa Parks
 
 # Data Path: data/9.py || data/9_exemple.py
 

@@ -1,5 +1,5 @@
 # --- DAY 8 --- #
-# "Whatever the mind of man can conceive and believe, it can achieve." - Napoleon Hill
+# "The most common way people give up their power is by thinking they don't have any." - Alice Walker
 
 # Data Path: data/8.py || data/8_exemple.py
 

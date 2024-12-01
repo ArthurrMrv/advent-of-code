@@ -57,7 +57,7 @@ def generate_data(mini, maxi):
 def generate_py(mini, maxi, quotes):
     for i in tqdm(range(mini, maxi+1)):
         
-        template = PyTemplate(i, quotes[(i-mini)%len(quotes)])
+        template = PyTemplate(i, quotes[i%len(quotes)])
         
         with open(f"{i}.py", "w") as f:
             f.write(str(template))

@@ -1,5 +1,5 @@
 # --- DAY 19 --- #
-# "Life shrinks or expands in proportion to one's courage." - Anais Nin
+# "Teach thy tongue to say, “I do not know,” and thous shalt progress." - Maimonides
 
 # Data Path: data/19.py || data/19_exemple.py
 

@@ -1,5 +1,5 @@
 # --- DAY 24 --- #
-# "Every strike brings me closer to the next home run." - Babe Ruth
+# "First, have a definite, clear practical ideal; a goal, an objective. Second, have the necessary means to achieve your ends; wisdom, money, materials, and methods. Third, adjust all your means to that end." - Aristotle
 
 # Data Path: data/24.py || data/24_exemple.py
 

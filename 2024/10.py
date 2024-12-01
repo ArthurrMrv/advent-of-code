@@ -1,5 +1,5 @@
 # --- DAY 10 --- #
-# "The most common way people give up their power is by thinking they don't have any." - Alice Walker
+# "We must believe that we are gifted for something, and that this thing, at whatever cost, must be attained." - Marie Curie
 
 # Data Path: data/10.py || data/10_exemple.py
 

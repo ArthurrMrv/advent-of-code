@@ -1,5 +1,5 @@
 # --- DAY 6 --- #
-# "In order to succeed, your desire for success should be greater than your fear of failure." - Bill Cosby
+# "Whatever the mind of man can conceive and believe, it can achieve." - Napoleon Hill
 
 # Data Path: data/6.py || data/6_exemple.py
 

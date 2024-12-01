@@ -1,5 +1,5 @@
 # --- DAY 12 --- #
-# "We must believe that we are gifted for something, and that this thing, at whatever cost, must be attained." - Marie Curie
+# "Start where you are. Use what you have.  Do what you can." - Arthur Ashe
 
 # Data Path: data/12.py || data/12_exemple.py
 

@@ -1,5 +1,5 @@
 # --- DAY 13 --- #
-# "We must balance conspicuous consumption with conscious capitalism." - Kevin Kruse
+# "If you hear a voice within you say “you cannot paint,” then by all means paint and that voice will be silenced." - Vincent Van Gogh
 
 # Data Path: data/13.py || data/13_exemple.py
 

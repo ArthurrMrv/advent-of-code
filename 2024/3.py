@@ -1,5 +1,5 @@
 # --- DAY 3 --- #
-# "The battles that count aren't the ones for gold medals. The struggles within yourself-the invisible battles inside all of us-that's where it's at." - Jesse Owens
+# "Definiteness of purpose is the starting point of all achievement." - W. Clement Stone
 
 # Data Path: data/3.py || data/3_exemple.py
 

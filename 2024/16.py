@@ -1,5 +1,5 @@
 # --- DAY 16 --- #
-# "If the wind will not serve, take to the oars." - Latin Proverb
+# "How wonderful it is that nobody need wait a single moment before starting to improve the world." - Anne Frank
 
 # Data Path: data/16.py || data/16_exemple.py
 

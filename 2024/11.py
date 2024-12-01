@@ -1,5 +1,5 @@
 # --- DAY 11 --- #
-# "I have learned over the years that when one's mind is made up, this diminishes fear." - Rosa Parks
+# "We must balance conspicuous consumption with conscious capitalism." - Kevin Kruse
 
 # Data Path: data/11.py || data/11_exemple.py
 

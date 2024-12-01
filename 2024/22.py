@@ -1,5 +1,5 @@
 # --- DAY 22 --- #
-# "The best revenge is massive success." - Frank Sinatra
+# "Every strike brings me closer to the next home run." - Babe Ruth
 
 # Data Path: data/22.py || data/22_exemple.py
 
