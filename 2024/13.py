@@ -1,5 +1,5 @@
 # --- DAY 13 --- #
-# "Start where you are. Use what you have.  Do what you can." - Arthur Ashe
+# "We must balance conspicuous consumption with conscious capitalism." - Kevin Kruse
 
 # Data Path: data/13.py || data/13_exemple.py
 
@@ -8,13 +8,13 @@ from tqdm import tqdm
 import numpy as np
 
 def main():
-    data = get_data(13)
+    data = get_data(13, True)
     print(part1(data))
 
 def get_data(i, exemple=False):
     path = f"data/13_exemple.txt" if exemple else f"data/13.txt"
     with open(path, "r") as f:
-        data = f.read()
+        data = [l.strip() for l in f.readlines()]
     return data
     
 def part1(data):

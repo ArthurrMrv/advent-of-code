@@ -1,5 +1,5 @@
 # --- DAY 21 --- #
-# "The best revenge is massive success." - Frank Sinatra
+# "Teach thy tongue to say, “I do not know,” and thous shalt progress." - Maimonides
 
 # Data Path: data/21.py || data/21_exemple.py
 
@@ -8,13 +8,13 @@ from tqdm import tqdm
 import numpy as np
 
 def main():
-    data = get_data(21)
+    data = get_data(21, True)
     print(part1(data))
 
 def get_data(i, exemple=False):
     path = f"data/21_exemple.txt" if exemple else f"data/21.txt"
     with open(path, "r") as f:
-        data = f.read()
+        data = [l.strip() for l in f.readlines()]
     return data
     
 def part1(data):

@@ -13,7 +13,10 @@ def main():
     
     mini, maxi = get_mini_maxi()
     if check_already_exist(mini, maxi):
-        return
+        sure = input("Are you sure you want to continue? (y/n): ")
+        if sure != "y":
+            return
+        
     
     generate_data(mini, maxi)
     generate_py(mini, maxi, quotes)
@@ -81,13 +84,13 @@ from tqdm import tqdm
 import numpy as np
 
 def main():
-    data = get_data({self.i})
+    data = get_data({self.i}, True)
     print(part1(data))
 
 def get_data(i, exemple=False):
     path = f"data/{self.i}_exemple.txt" if exemple else f"data/{self.i}.txt"
     with open(path, "r") as f:
-        data = f.read()
+        data = [l.strip() for l in f.readlines()]
     return data
     
 def part1(data):

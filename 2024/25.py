@@ -1,5 +1,5 @@
 # --- DAY 25 --- #
-# "First, have a definite, clear practical ideal; a goal, an objective. Second, have the necessary means to achieve your ends; wisdom, money, materials, and methods. Third, adjust all your means to that end." - Aristotle
+# "Winning isn't everything, but wanting to win is." - Vince Lombardi
 
 # Data Path: data/25.py || data/25_exemple.py
 
@@ -8,13 +8,13 @@ from tqdm import tqdm
 import numpy as np
 
 def main():
-    data = get_data(25)
+    data = get_data(25, True)
     print(part1(data))
 
 def get_data(i, exemple=False):
     path = f"data/25_exemple.txt" if exemple else f"data/25.txt"
     with open(path, "r") as f:
-        data = f.read()
+        data = [l.strip() for l in f.readlines()]
     return data
     
 def part1(data):

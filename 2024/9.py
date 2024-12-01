@@ -1,5 +1,5 @@
 # --- DAY 9 --- #
-# "The most common way people give up their power is by thinking they don't have any." - Alice Walker
+# "You become what you believe." - Oprah Winfrey
 
 # Data Path: data/9.py || data/9_exemple.py
 
@@ -8,13 +8,13 @@ from tqdm import tqdm
 import numpy as np
 
 def main():
-    data = get_data(9)
+    data = get_data(9, True)
     print(part1(data))
 
 def get_data(i, exemple=False):
     path = f"data/9_exemple.txt" if exemple else f"data/9.txt"
     with open(path, "r") as f:
-        data = f.read()
+        data = [l.strip() for l in f.readlines()]
     return data
     
 def part1(data):

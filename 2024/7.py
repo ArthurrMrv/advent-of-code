@@ -1,5 +1,5 @@
 # --- DAY 7 --- #
-# "Whatever the mind of man can conceive and believe, it can achieve." - Napoleon Hill
+# "Fall seven times and stand up eight." - Japanese Proverb
 
 # Data Path: data/7.py || data/7_exemple.py
 
@@ -8,13 +8,13 @@ from tqdm import tqdm
 import numpy as np
 
 def main():
-    data = get_data(7)
+    data = get_data(7, True)
     print(part1(data))
 
 def get_data(i, exemple=False):
     path = f"data/7_exemple.txt" if exemple else f"data/7.txt"
     with open(path, "r") as f:
-        data = f.read()
+        data = [l.strip() for l in f.readlines()]
     return data
     
 def part1(data):

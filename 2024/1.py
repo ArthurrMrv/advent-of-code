@@ -15,7 +15,7 @@ def main():
 def get_data(i, exemple=False):
     path = f"data/1_exemple.txt" if exemple else f"data/1.txt"
     with open(path, "r") as f:
-        data = f.read()
+        data = [i.strip() for i in f.readlines()]
     return data
     
 def part1(data):
