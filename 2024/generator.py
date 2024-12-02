@@ -77,21 +77,13 @@ class PyTemplate:
         PY_TEMPLATE = f"""# --- DAY {self.i} --- #
 # \"{self.quote['quote']}\" - {self.quote['author']}
 
-# Data Path: data/{self.i}.py || data/{self.i}_exemple.py
-
-import os 
-from tqdm import tqdm
-import numpy as np
+# Data Path: data/{self.i}.txt || data/{self.i}_exemple.txt
 
 def main():
     data = get_data({self.i}, True)
-    print(part1(data))
-
-def get_data(i, exemple=False):
-    path = f"data/{self.i}_exemple.txt" if exemple else f"data/{self.i}.txt"
-    with open(path, "r") as f:
-        data = [l.strip() for l in f.readlines()]
-    return data
+    print("-- Day {self.i} --")
+    print(f"Part 1: {{part1(data)}}")
+    print(f"Part 2: {{part2(data)}}")
     
 def part1(data):
     return None
@@ -99,10 +91,15 @@ def part1(data):
 def part2(data):
     return None
     
+def get_data(i, exemple=False):
+    path = f"data/{self.i}_exemple.txt" if exemple else f"data/{self.i}.txt"
+    with open(path, "r") as f:
+        data = [l.strip() for l in f.readlines()]
+    return data
+    
 if __name__ == "__main__":
     main()
 """
-        
         return PY_TEMPLATE
 
 if __name__ == "__main__":
