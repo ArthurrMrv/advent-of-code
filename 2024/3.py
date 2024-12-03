@@ -39,14 +39,15 @@ def part2(data):
             filter_data = data[:7]
     
         for i in range(7, len(data)):
+            
             if data[i-7:i] == "don't()":
                 valid = 0
-            elif "do()" in data[i-7:i]:
+            elif data[i-4:i] == "do()":
                 valid = 1
-                
+            
             if valid:
                 filter_data += data[i]
-                
+            
         return filter_data
     
     data = filter_data(data)
