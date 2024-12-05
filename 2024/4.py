@@ -32,7 +32,6 @@ def part2(data, word = "MAS"):
     
 def look_for(data, word, coordinates,
               directions = [(1, 0), (0, 1), (1, 1), (1, -1), (-1, 1), (-1, -1), (0, -1), (-1, 0)],):
-   
     occurences = 0
     
     for d in directions:
@@ -75,9 +74,6 @@ def look_for_occurences(data, word, coordinates,
             
     return occurences_idx
 
-    
-    
-    
 def get_data(i, exemple=False):
     path = f"data/4_exemple.txt" if exemple else f"data/4.txt"
     with open(path, "r") as f:
